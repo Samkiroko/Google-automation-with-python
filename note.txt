@@ -1,9 +1,0 @@
-readline() = will read the first line of the file
-when called the second time will read the second line
-
-read() start form where we are on the file to the end
-Always remember to close the the files file.close()
-When we use the with block python will remember to close the file for us automatically
-
-Iterating through files
-

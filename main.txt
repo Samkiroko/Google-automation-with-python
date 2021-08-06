@@ -1,0 +1,18 @@
+readline() = will read the first line of the file
+when called the second time will read the second line
+
+read() start form where we are on the file to the end
+Always remember to close the the files file.close()
+When we use the with block python will remember to close the file for us automatically
+
+Iterating through files
+
+Writing to the files modes
+"r" : read only
+"w" : write only
+"a" : append 
+"r+": read-write
+
+If you open a file for writing and the file already exists, the old contents will be deleted as soon as the file is opened 
+
+Path can be different across different operating systems. So, whenever we're using an absolute  path in our code, we need to make sure we can provide alternatives for the platform we want to support.
